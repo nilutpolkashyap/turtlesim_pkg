@@ -30,7 +30,6 @@ def turtle_move():
     	vel.angular.z = 0
     	pub.publish(vel)
     	rate.sleep()
-    	
 
 if __name__ == '__main__':
     try:
